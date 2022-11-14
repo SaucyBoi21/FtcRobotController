@@ -65,6 +65,7 @@ public class Jank extends LinearOpMode {
 
         clawL.setDirection(Servo.Direction.FORWARD);
         clawR.setDirection(Servo.Direction.REVERSE);
+        
         if (opModeIsActive()) {
             // Put run blocks here.
             while (opModeIsActive()) {
